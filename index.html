@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- <link rel="icon" href="Assets/Images/logo.svg" type="image/svg+xml"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="Assets/Scripts/JQuery.js"></script>
+		<link rel="stylesheet" type="text/css" href="Assets/Styles/I-Style.css">
+		<link rel="stylesheet" type="text/css" href="Assets/Styles/NiceSelect.css">
+		<title>Sample blog title here (Blog) : Schicordance || The Book Of Future</title>
+		<noscript><strong>Please enable Javascript to see this website in action</strong></noscript>
+	</head>
+	<body>
+		<header class>
+			<img alt="Logo" src="Assets/Images/logo.svg">
+			<div class="rw search">
+				<input type="text" placeholder="Search For Articles">
+				<img src="Assets/Images/Icons/search.png" onclick="$('header .search').toggleClass('show')">
+			</div>
+			<div class="rw m-btn" onclick="$('header').toggleClass('m-open');">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menu">
+				<div tabindex="0" class="item">
+					<content>
+						<i>&#129184;&nbsp;</i>
+						Read More
+					</content>
+					<div class="child">
+						<span>Random Article</span>
+						<span>Similar Article</span>
+						<span>Article Of The Week</span>
+						<span>Article Of The Month</span>
+					</div>
+				</div>
+				<div tabindex="0" class="item">
+					<content>
+						<i>&#129184;&nbsp;</i>
+						Take Course
+					</content>
+					<div class="child">
+						<span>Physics</span>
+						<span>Chemistry</span>
+						<span>Computer Science</span>
+						<span>Mathematics</span>
+						<span>Biology</span>
+					</div>
+				</div>
+				<div tabindex="0" class="item">
+					<content>
+						<i>&#129185;</i>
+						Write Article
+					</content>
+				</div>
+				<div tabindex="0" class="item">
+					<content>
+						<i>&#129184;&nbsp;</i>
+						Legals
+					</content>
+					<div class="child">
+						<span>Terms & Conditions</span>
+						<span>Privacy Policy</span>
+						<span>Cookie Consent</span>
+					</div>
+				</div>
+				<div tabindex="0" class="item">
+					<content>
+						<i>&#129184;&nbsp;</i>
+						Join Us
+					</content>
+					<div class="child">
+						<span>$1 / Month</span>
+						<span>$5.5 / Half Yearly</span>
+						<span>$11 / Anually</span>
+					</div>
+				</div>
+				<div tabindex="0" class="item">
+					<content>
+						<i>&#129184;&nbsp;</i>
+						Download
+					</content>
+					<div class="child">
+						<span>Android App</span>
+						<span>iOS App</span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="float-tools">
+			<div class="btn-feel b2" id="switch-state">
+		        <input type="checkbox" onchange="" class="checkbox">
+		        <div class="knobs"><span class="sw"></span></div>
+		        <div class="layer"></div>
+		    </div>
+			<div class="icon"><img src="Assets/Images/Icons/music.png"></div>
+			<div class="icon">
+				<div class="cnts set-pnl">
+					<div>
+						<img src="Assets/Images/Icons/font-size.png">
+						<span>Font Size</span>
+						<select class="fsize" aria-label="f-size">
+							<option value="12">12</option>
+							<option value="14">14</option>
+							<option value="16" selected>16</option>
+							<option value="18">18</option>
+							<option value="20">20</option>
+						</select>
+					</div>
+					<div>
+						<img src="Assets/Images/Icons/font-selection.png">
+						<span>Font Style</span>
+						<select class="fstyle" aria-label="f-style">
+							<option value="ss">Sans-Serif</option>
+							<option value="Mspc" selected>Monospace</option>
+							<option value="Csv">Cursive</option>
+							<option value="Mth">Math</option>
+						</select>
+					</div>
+					<div>
+						<img src="Assets/Images/Icons/font-color.png">
+						<span>Font Colour</span>
+						<select class="fcolor" aria-label="f-color">
+							<option value="1">Dark Gray</option>
+							<option value="2" selected>Molten Pink</option>
+							<option value="3">Relaxed Blue</option>
+							<option value="4">Royal Black</option>
+						</select>
+					</div>
+					<div> <!-- OnClick [To-Do] -->
+						<img src="Assets/Images/Icons/speak-aloud.png">
+						<span>Read Aloud</span>
+					</div>
+				</div>
+				<img src="Assets/Images/Icons/settings.png">
+			</div>
+			<b class="right">&#10097;</b>
+		</div>
+
+		<section>Hi</section>
+
+		<footer>
+			<!--  -->
+		</footer>
+
+
+		<script>$('#float-tools .icon').on('click', function() { $(this).toggleClass('visible'); });</script>
+		<script src="Assets\Scripts\NiceSelect.js"></script>
+		<script>$('select').niceSelect();</script>
+	</body>
+</html>
